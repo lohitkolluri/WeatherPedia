@@ -17,7 +17,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-
+<!--  
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
@@ -25,29 +25,30 @@
             <li class="nav-item">
               <a class="nav-link" href="#">About This Website</a>
             </li>
+            -->
 
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Links
               </a>
-              <ul class="dropdown-menu" style="background-color: #2f92da;" >
-                <li><a class="dropdown-item" style="background-color: #2f92da;" href="https://github.com/lohitkolluri">GitHub</a></li>
-                <li><a class="dropdown-item" style="background-color: #2f92da;" href="https://www.linkedin.com/in/kollurilohit/">LinkedIn</a></li>
+              <ul class="dropdown-menu" >
+                <li><a class="dropdown-item" href="https://github.com/lohitkolluri">GitHub</a></li>
+                <li><a class="dropdown-item" href="https://www.linkedin.com/in/kollurilohit/">LinkedIn</a></li>
                 <!-- <li><hr class="dropdown-divider"></li> -->
-                <li><a class="dropdown-item" style="background-color: #2f92da;" href="https://lohitkolluri.github.io/">Portfolio</a></li>
+                <li><a class="dropdown-item" href="https://lohitkolluri.github.io/">Portfolio</a></li>
               </ul>
 
           </ul>
           <form class="d-flex" role="search">
             <input id="city" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit" id="submit">Search</button>
+            <button class="btn btn-outline-success" type="submit" id="submit">Locate</button>
           </form>
         </div>
       </div>
     </nav>
 
 
-    <div class="container border-primary">
+    <div class="container border-primary text-center">
       <h1 class="my-4 text-center">Weather For <span id="cityName"></span></h1>
       <main>
         <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
@@ -57,14 +58,14 @@
                 <h4 class="my-0 fw-normal">Temperatures</h4>
               </div>
               <div class="card-body">
-                <h1 class="card-title pricing-card-title">$0<small class="text-body-secondary fw-light">/mo</small></h1>
+                <h1 class="card-title pricing-card-title"><span id="temp2"></span><small class="text-body-secondary fw-light">C</small></h1>
                 <ul class="list-unstyled mt-3 mb-4">
                   <li>Temperature is <span id="temp"></span> </li>
                   <li>Min Temperature is <span id="min_temp"></span></li>
                   <li>Max Temperature is <span id="max_temp"></span></li>
 
                 </ul>
-                <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button>
+                <!-- <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button> -->
               </div>
             </div>
           </div>
@@ -74,37 +75,37 @@
                 <h4 class="my-0 fw-normal">Humidity</h4>
               </div>
               <div class="card-body">
-                <h1 class="card-title pricing-card-title">$15<small class="text-body-secondary fw-light">/mo</small></h1>
+                <h1 class="card-title pricing-card-title"><span id="humidity2"></span><small class="text-body-secondary fw-light">%</small></h1>
                 <ul class="list-unstyled mt-3 mb-4">
                   <!-- <li>Cloud PCT is <span id="cloud_pct"></span></li> -->
                   <li>Wind Degrees is <span id="wind_degrees"></span></li>
                   <li>Feels Like is <span id="feels_like"></span></li>
                   <li>Humidity is <span id="humidity"></span></li>
                 </ul>
-                <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
+                <!-- <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button> -->
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="card mb-4 rounded-3 shadow-sm border-primary">
-              <div class="card-header py-3 text-bg-primary border-primary">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
                 <h4 class="my-0 fw-normal">Wind</h4>
               </div>
               <div class="card-body">
-                <h1 class="card-title pricing-card-title">$29<small class="text-body-secondary fw-light">/mo</small></h1>
+                <h1 class="card-title pricing-card-title"><span id="wind_speed2"></span><small class="text-body-secondary fw-light">km/hr</small></h1>
                 <ul class="list-unstyled mt-3 mb-4">
                   <li>Wind Speed is <span id="wind_speed"></span></li>
                   <li>Sunrise Time is <span id="sunrise"></span></li>
                   <li>Sunset Time is <span id="sunset"></span></li>
 
                 </ul>
-                <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button>
+                <!-- <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button> -->
               </div>
             </div>
           </div>
         </div>
-    
-        <h2 class="display-6 text-center mb-4">Compare plans</h2>
+    <!--  
+        <h2 class="display-6 text-center mb-4">Other Locations</h2>
     
         <div class="table-responsive">
           <table class="table text-center">
@@ -206,6 +207,7 @@
                 <td>10</td>
 
               </tr>
+              -->
             </tbody>
           </table>
         </div>

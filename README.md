@@ -1,16 +1,42 @@
-
 # WeatherPedia
-WeatherPedia is a responsive weather website powered by Bootstrap, HTML, and JavaScript. It provides real-time weather information for user-entered locations, delivering a visually appealing experience. With Bootstrap's responsive framework, the website seamlessly adapts to different screen sizes. Users can easily search for locations, view current temperature, humidity, wind speed, Etc. Bootstrap's CSS classes and styling enhance the visual appeal. WeatherPedia offers an accessible and user-friendly platform to access accurate weather data.
-## Deployment
-Click on the link to visit the website 👇
 
+WeatherPedia is a simple web application that allows users to check the current weather information for a specific city. It retrieves weather data using the Weather API provided by API Ninjas.
 
+## Features
 
-  https://lohit-weatherpedia.netlify.app
+- Display current temperature, minimum and maximum temperature, humidity, wind speed, wind degrees, sunrise time, and sunset time for a given city.
+- Search for weather information by entering the city name.
+- Responsive design for optimal viewing on different devices.
 
+## Demo
 
+You can see a live demo of WeatherPedia [here](https://lohit-weatherpedia.netlify.app/).
 
-## Screenshots
+## Installation
 
-![Website Screenshot](https://github.com/lohitkolluri/WeatherPedia/blob/main/Website.png?raw=true)
+1. Clone the repository:
 
+   ```bash
+   git clone https://github.com/your-username/WeatherPedia.git
+   ```
+
+2. Open the `index.html` file in your preferred web browser.
+
+## Usage
+
+1. Open the WeatherPedia application in your web browser.
+2. Enter the name of the city you want to check the weather for in the search input field.
+3. Click the "Locate" button or press Enter to retrieve the weather information for the specified city.
+4. The weather details will be displayed on the screen, including temperature, humidity, wind speed, and more.
+
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+- Bootstrap
+
+## Credits
+
+- Weather API provided by [API Ninjas](https://weather-by-api-ninjas.p.rapidapi.com).
+- Bootstrap CSS framework used for styling.

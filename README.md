@@ -1,7 +1,5 @@
 # WeatherPedia
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/281c3e61-2c3a-4d60-8032-a08b3b903b2c/deploy-status)](https://app.netlify.com/sites/lohit-weatherpedia/deploys)
-
 WeatherPedia is a simple web application that allows users to check the current weather information for a specific city. It retrieves weather data using the Weather API provided by API Ninjas.
 
 ## Features
@@ -12,7 +10,7 @@ WeatherPedia is a simple web application that allows users to check the current 
 
 ## Demo
 
-You can see a live demo of WeatherPedia [here](https://lohit-weatherpedia.netlify.app/).
+You can see a live demo of WeatherPedia [here](https://weatherpedia.lohitkolluri.tech/).
 
 ## Installation
 

@@ -1,6 +1,15 @@
 # WeatherPedia
 
-WeatherPedia is a simple web application that allows users to check the current weather information for a specific city. It retrieves weather data using the Weather API provided by API Ninjas.
+WeatherPedia is a straightforward web application that enables users to check the current weather information for a specific city. It retrieves weather data using the Weather API provided by API Ninjas.
+
+## Table of Contents
+
+- [Features](#features)
+- [Demo](#demo)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies Used](#technologies-used)
+- [Credits](#credits)
 
 ## Features
 
@@ -17,7 +26,7 @@ You can see a live demo of WeatherPedia [here](https://weatherpedia.lohitkolluri
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/WeatherPedia.git
+   git clone https://github.com/lohitkolluri/WeatherPedia.git
    ```
 
 2. Open the `index.html` file in your preferred web browser.

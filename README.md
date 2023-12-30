@@ -19,7 +19,7 @@ WeatherPedia is a straightforward web application that enables users to check th
 
 ## Demo
 
-You can see a live demo of WeatherPedia [here](https://weatherpedia.lohitkolluri.tech/).
+You can see a live demo of WeatherPedia [here](https://lohitkolluri.github.io/WeatherPedia).
 
 ## Installation
 

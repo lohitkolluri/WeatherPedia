@@ -1,51 +1,48 @@
-# WeatherPedia
+<h1 align="center" id="title">WeatherPedia</h1>
 
-WeatherPedia is a straightforward web application that enables users to check the current weather information for a specific city. It retrieves weather data using the Weather API provided by API Ninjas.
+<p id="description">WeatherPedia is a straightforward web application that enables users to check the current weather information for a specific city. It retrieves weather data using the Weather API provided by API Ninjas.</p>
 
-## Table of Contents
+<h2>🚀 Demo</h2>
 
-- [Features](#features)
-- [Demo](#demo)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Technologies Used](#technologies-used)
-- [Credits](#credits)
+[https://lohitkolluri.github.io/WeatherPedia](https://lohitkolluri.github.io/WeatherPedia)
 
-## Features
+  
+  
+<h2>🧐 Features</h2>
 
-- Display current temperature, minimum and maximum temperature, humidity, wind speed, wind degrees, sunrise time, and sunset time for a given city.
-- Search for weather information by entering the city name.
-- Responsive design for optimal viewing on different devices.
+Here're some of the project's best features:
 
-## Demo
+*   Display current temperature minimum and maximum temperature humidity wind speed wind degrees sunrise time and sunset time for a given city.
+*   Search for weather information by entering the city name.
+*   Responsive design for optimal viewing on different devices.
 
-You can see a live demo of WeatherPedia [here](https://lohitkolluri.github.io/WeatherPedia).
+<h2>🛠️ Installation Steps:</h2>
 
-## Installation
+<p>1. Clone the repository:</p>
 
-1. Clone the repository:
+```
+git clone https://github.com/lohitkolluri/WeatherPedia.git
+```
 
-   ```bash
-   git clone https://github.com/lohitkolluri/WeatherPedia.git
-   ```
+<p>2. Navigate to the directory.</p>
 
-2. Open the `index.html` file in your preferred web browser.
+```
+cd WeatherPedia
+```
 
-## Usage
+<p>3. Open the index.html file in your preferred web browser.</p>
 
-1. Open the WeatherPedia application in your web browser.
-2. Enter the name of the city you want to check the weather for in the search input field.
-3. Click the "Locate" button or press Enter to retrieve the weather information for the specified city.
-4. The weather details will be displayed on the screen, including temperature, humidity, wind speed, and more.
+  
+  
+<h2>💻 Built with</h2>
 
-## Technologies Used
+Technologies used in the project:
 
-- HTML
-- CSS
-- JavaScript
-- Bootstrap
+*   HTML
+*   CSS
+*   JavaScript
+*   Bootstrap
 
-## Credits
+<h2>🛡️ License:</h2>
 
-- Weather API provided by [API Ninjas](https://weather-by-api-ninjas.p.rapidapi.com).
-- Bootstrap CSS framework used for styling.
+This project is licensed under the [MIT License](LICENSE)
